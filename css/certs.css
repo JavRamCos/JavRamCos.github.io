@@ -1,0 +1,193 @@
+/*     MAIN TITLE     */
+#main-title-div {
+    width: 785px;
+    height: 130px;
+}
+
+#main-title-div h2 {
+    font-size: 83px;
+}
+
+/*             SECTIONS             */
+/* DIMENSIONS (height):             */
+/* - cert: 350px                    */
+/* - row: 400px                     */
+/* - cert-div: 400px*(rows)         */
+/* - cert-cont: 400px*(rows)+200px  */
+#current-certs-container {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+#completed-certs-container {
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-title {
+    width: 40%;
+    height: 100px;
+    margin: 20px auto 2px auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.section-title h2 {
+    font-size: 45px;
+    margin: auto;
+}
+
+#current-certs-div {
+    width: 90%;
+    height: 400px;
+    margin: 2px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#completed-certs-div {
+    width: 90%;
+    height: 800px;
+    margin: 2px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.cert-two-row, .cert-one-row {
+    width: 98%;
+    height: 400px;
+    margin: 2px auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.cert-div, .cert-div-left, .cert-div-right {
+    width: 310px;
+    height: 350px;
+}
+
+.cert-div { margin: auto; }
+
+.cert-div-left { margin: auto 3% auto auto; }
+
+.cert-div-right { margin: auto auto auto 3%; }
+
+.cert-container {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cert-image-container {
+    width: 140px;
+    height: 140px;
+    margin: 12px auto;
+    border-radius: 50%;
+}
+
+.cert-image-container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.cert-body {
+    width: 95%;
+    height: 170px;
+    margin: 5px auto;
+}
+
+.cert-title {
+    width: 98%;
+    height: 115px;
+    display: flex;
+    align-items: center;
+    margin: 2px auto;
+    text-align: center;
+}
+
+.cert-title h3 {
+    margin: auto;
+    font-size: 23px;
+    rgb(0, 0, 0, 1.0);
+}
+
+.cert-link {
+    width: 98%;
+    height: 45px;
+    margin: 2px auto;
+    display: flex;
+    align-items: center;
+}
+
+.cert-link a {
+    color: rgb(0, 0, 0, 1.0);
+    font-size: 20px;
+    margin: auto;
+}
+
+.cert-link a:hover {
+    color: rgb(255, 255, 255, 1.0);
+}
+
+@media only screen and (max-width: 820px) {
+    #main-title-container {
+        height: 250px;
+    }
+
+    #main-title-div {
+        width: 90%;
+    }
+
+    #main-title-div h2 {
+        font-size: 41px;
+    }
+
+    /*             SECTIONS             */
+    /* DIMENSIONS (height):             */
+    /* - cert: 350px                    */
+    /* - row: 400px*(1|2)               */
+    /* - cert-div: 400px*(certs)        */
+    /* - cert-cont: 400px*(certs)+200px */
+    #current-certs-container {
+        height: 600px;
+    }
+
+    #completed-certs-container {
+        height: 1800px;
+    }
+
+    .section-title {
+        width: 80%;
+    }
+
+    .section-title h2 {
+        font-size: 35px;
+    }
+
+    #current-certs-div {
+        margin: 10px auto;
+        height: 400px;
+    }
+
+    #completed-certs-div {
+        margin: 10px auto;
+        height: 1600px;
+    }
+
+    .cert-two-row {
+        height: 800px;
+        flex-direction: column;
+    }
+
+    .cert-div-left, .cert-div-right {
+        margin: auto;
+    }
+}

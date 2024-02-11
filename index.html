@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../libs/aos/css/aos.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/colors.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/main.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/index.css"/>
+    <title>Homepage</title>
+</head>
+<body>
+    <div id="preferences-container">
+        <div class="dark-bg" id="preferences-notice" data-aos="zoom-in">
+            <div id="preferences-title">
+                <h2>THIS SITE USES COOKIES</h2>
+            </div>
+            <div id="preferences-body">
+                <p>
+                    This site uses cookies to remember your preferred language setting, so you don't have to choose it
+                    every time you visit. These cookies store only language preference setting and no other personal
+                    information. These cookies are not shared with any third parties for any purpose.
+                </p>
+                <br/>
+                <p>
+                    The default language is set to English. The language can be changed at any time in the top right
+                    corner of the page.
+                </p>
+            </div>
+            <div class="button-container">
+                <button id="accept-cookies-btn">ACCEPT</button>
+            </div>
+            <div class="button-container">
+                <button id="decline-cookies-btn">DECLINE</button>
+            </div>
+        </div>
+    </div>
+    <header>
+        <nav class="primary-bg">
+            <div id="nav-sign-div">
+<!--                <div id="back-sign-container">-->
+<!--                    <img src="./res/images/Arrow-Back.png" alt="Back Arrow Image" onclick="">-->
+<!--                </div>-->
+            </div>
+            <div id="nav-lang-div">
+                <ul>
+                    <li>
+                        <a href="javascript:void(0)" language="spanish" class="" id="spanish-selected">ES</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" language="english" class="" id="english-selected">EN</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="secondary-bg" id="bio-container">
+            <div id="bio-div" data-aos="zoom-in">
+                <div id="bio-image-container">
+                    <img src="./res/images/ProfJav.png" alt="Profile picture">
+                </div>
+                <div id="bio-text-container">
+                    <div><h2 id="bio-title">ABOUT ME</h2></div>
+                    <div><p id="bio-body">My Name is Javier Ramirez Cospin. I'm 25 years old and I'm a Computer Science
+                        and Information Technologies Engineer with specialization in video games. Current Master of
+                        Business Administration student (MBA+) at the University of the Valley of Guatemala (UVG). This
+                        is my personal website where anyone can check my latest certifications, projects and experiences.
+                    </p></div>
+                </div>
+            </div>
+        </div>
+        <div id="sections-container">
+            <div id="sections-title-div" data-aos="zoom-in">
+                <h2 id="sections-title">SECTIONS</h2>
+            </div>
+            <div class="section-left darker-bg" data-aos="fade-right">
+                <h2>
+                    <a href="./experience.html" id="experience-section">EXPERIENCE</a>
+                </h2>
+            </div>
+            <div class="section-right darker-bg" data-aos="fade-left">
+                <h2>
+                    <a href="./education.html" id="education-section">EDUCATION</a>
+                </h2>
+            </div>
+            <div class="section-left darker-bg" data-aos="fade-right">
+                <h2>
+                    <a href="./certs.html" id="certificates-item">CERTIFICATES</a>
+                </h2>
+            </div>
+            <div class="section-right darker-bg" data-aos="fade-left">
+                <h2>
+                    <a href="./projects.html" id="projects-section">PROJECTS</a>
+                </h2>
+            </div>
+            <div class="section-left darker-bg" data-aos="fade-right">
+                <h2>
+                    <a href="./skills.html" id="skills-section">SKILLS</a>
+                </h2>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="primary-bg" id="contact-container">
+            <div id="contact-div">
+                <div id="contact-title-div">
+                    <h2 id="contact-title">CONTACT</h2>
+                </div>
+                <div id="contact-body">
+                    <p>Email: ram18099@uvg.edu.gt</p>
+                    <p>tel: +502 4487 0385</p>
+                    <p>
+                        <a href="https://www.linkedin.com/in/javierramirezcospin" target="_blank" id="contact-linkedin">
+                            Linkedin Profile
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="../libs/aos/scripts/aos.js"></script>
+    <script>AOS.init({
+        duration: 900,
+    })</script>
+    <script type="module" src="./scripts/index.js"></script>
+</body>
+</html>
