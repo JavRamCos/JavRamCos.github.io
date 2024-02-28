@@ -1,235 +1,199 @@
-.project-container {
+#projects-container {
     width: 100%;
+    height: 1440px;
     display: flex;
     flex-direction: column;
 }
-/*     JAVA CHAT PROJECT     */
-#javachat-container {
-    background-image: url('../res/images/JavaChat/Background.gif');
-    background-size: cover;
-    height: 930px;
+
+/*     SELECTIONS     */
+#selection-container {
+    width: 800px;
+    height: 80px;
+    margin: 5px auto;
+    display: flex;
+    flex-direction: row;
 }
 
-#javachat-div {
-    height: 780px;
+.selection-outer-div {
+    width: 250px;
+    height: 70px;
 }
 
-#project_0_tools, #project_0_description, #project_0_link {
+#left-selection {
+    margin: auto 20px auto auto;
+}
+
+#right-selection {
+    margin: auto auto auto 20px;
+}
+
+.selection-inner-div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.selection-inner-div a {
+    font-size: 28px;
+    font-weight: normal;
+    text-decoration: none;
     color: rgb(0, 0, 0, 1.0);
-}
-
-#project_0_link:hover {
-    color: rgb(255, 255, 255, 1.0);
-}
-
-/*     LIBERTY PROJECT     */
-#Liberty-container {
-    background-image: url("../res/gifs/LibertyBackground.gif");
-    background-size: cover;
-    height: 1100px;
-}
-
-#liberty-div {
-    height: 960px;
-}
-
-#liberty-body {
-    height: 52%;
-}
-
-#project_1_tools, #project_1_description, #project_1_link {
-    color: rgb(255, 255, 255, 1.0);
-}
-
-#project_1_link:hover {
-    color: rgb(255, 0, 255, 1.0);
-}
-
-/*     ENDFALL     */
-#endfall-container {
-    background-image: url("../res/images/endfall/EndfallBackground.webp");
-    background-size: cover;
-    height: 1050px;
-}
-
-.project-outer-div {
-    width: 80%;
     margin: auto;
+}
+
+.selected {
+    background: rgb(140, 140, 140, 1.0);
+    border-radius: 15px;
+}
+
+.selected a {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/*     GAMES SECTION     */
+#games-container {
+    width: 800px;
+    height: 1290px;
     display: flex;
     flex-direction: column;
+    margin: 5px auto 15px auto;
 }
 
-#project_2_tools, #project_2_description, #project_2_link {
-    color: rgb(0, 0, 0, 1.0);
+/*     CODING SECTION     */
+#coding-container {
+    width: 800px;
+    height: 1290px;
+    display: none;
+    flex-direction: column;
+    margin: 5px auto 15px auto;
 }
 
-#project_2_link:hover {
-    color: rgb(255, 255, 255, 1.0);
+/*     PROJECT     */
+.project-outer-div {
+    width: 600px;
+    height: 600px;
+    margin: 20px auto;
 }
 
 .project-inner-div {
     width: 100%;
     height: 100%;
-    border-radius: 70px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .project-title {
-    width: 300px;
-    height: 100px;
-    margin: 4px auto;
+    width: 90%;
+    height: 70px;
+    margin: 10px auto 3px auto;
     display: flex;
-    align-items: center;
-    text-align: center;
+    flex-direction: column;
 }
 
 .project-title h2 {
-    font-size: 30px;
+    font-size: 27px;
     margin: auto;
+    text-align: center;
 }
 
-.project-title img {
-    width: 100%;
-    height: 100%;
+.project-image {
+    width: 370px;
+    height: 200px;
+    background-color: white;
+    margin: 3px auto 3px auto;
 }
 
-.project-display {
-    width: 640px;
-    height: 350px;
-    margin: 8px auto;
-}
-
-.project-display img {
+.project-image img {
     width: 100%;
     height: 100%;
 }
 
 .project-body {
-    width: 95%;
-    margin: 5px auto;
+    width: 92%;
+    height: 250px;
+    margin: 3px auto 3px auto;
     display: flex;
     flex-direction: column;
 }
 
-.project-tools {
-    width: 90%;
-    height: 80px;
-    margin: 2px auto;
-    display: flex;
-    align-items: center;
+.project-body p {
+    margin: 20px auto;
     text-align: center;
-}
-
-.project-tools h3 {
-    font-size: 19px;
-    margin: auto;
-    font-weight: normal;
-    font-style: italic;
-}
-
-.project-description {
-    width: 90%;
-    height: 64%;
-    margin: 2px auto;
-    text-align: center;
-}
-
-.project-description p {
-    margin: 5px auto;
     font-size: 21px;
 }
 
-.project-link-div {
-    width: 90%;
+.project-link {
+    width: 80%;
     height: 40px;
-    margin: 2px auto;
+    margin: 3px auto 3px auto;
     display: flex;
-    align-items: center;
+    flex-direction: column;
 }
 
-.project-link-div a {
-    font-size: 19px;
+.project-link a {
+    font-size: 21px;
+    color: rgb(0, 0, 0, 1.0);
+    font-weight: bold;
+    text-decoration: underline;
     margin: auto;
+}
+.project-link a:hover {
+    color: rgb(255, 255, 255, 1.0);
 }
 
 @media only screen and (max-width: 820px) {
-    /*     JAVA CHAT PROJECT     */
-    #javachat-container {
-        height: 850px;
-    }
-
-    #javachat-div {
-        height: 750px;
-    }
-
-    #javachat-body {
-        height: 38%;
-    }
-
-    /*     LIBERTY PROJECT     */
-    #Liberty-container {
-        height: 1060px;
-    }
-
-    #liberty-div {
-        height: 970px;
-    }
-
-    #liberty-body {
-        height: 54%;
-    }
-
-    /*     ENDFALL PROJECT     */
-    #endfall-container {
-        height: 1050px;
-    }
-
-    #endfall-div {
-        height: 970px;
-    }
-
-    #endfall-body {
-        height: 55%;
-    }
-
-    .project-outer-div {
+    /*     SELECTIONS     */
+    #selection-container {
         width: 92%;
+        height: 80px;
     }
 
-    .project-inner-div {
-        border-radius: 30px;
+    .selection-outer-div {
+        width: 175px;
+        height: 70px;
     }
 
-    .project-title {
-        width: 280px;
-        height: 120px;
+    #left-selection {
+        margin: auto 10px auto auto;
     }
 
-    .project-title h2 {
-        font-size: 29px;
+    #right-selection {
+        margin: auto auto auto 10px;
     }
 
-    .project-display {
+    .selection-inner-div a {
+        font-size: 22px;
+    }
+
+    /*     GAMES SECTION     */
+    #games-container {
+        width: 90%;
+    }
+
+    /*     CODING SECTION     */
+    #coding-container {
+        width: 90%;
+    }
+
+    /*     PROJECT     */
+    .project-outer-div {
         width: 95%;
-        height: 310px;
+    }
+
+    .project-image {
+        width: 300px;
+        height: 170px;
     }
 
     .project-body {
-        height: 55%;
+        height: 285px;
     }
 
-    .project-tools {
-        height: 90px;
-    }
-
-    .project-tools h3 {
-        font-size: 18px;
-    }
-
-    .project-description {
-        height: 70%;
-    }
-
-    .project-description p {
-        font-size: 18px;
+    .project-body p {
+        margin: 10px auto;
+        font-size: 21px;
     }
 }

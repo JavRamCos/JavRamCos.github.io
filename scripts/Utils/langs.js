@@ -56,36 +56,32 @@ export const data = {
         },
         projects: {
             main_title: "PROJECTS",
+            games_title: "GAMES",
+            coding_title: "CODING",
             project_link: "View Repository",
-            project_0: {
-                title: "XMPP-JAVA CHAT CLIENT",
-                tools: "Java, Maven, XMPP Protocol, Communication Protocol Implementation",
-                description: "XMPP-Java is a Java-based client for the Extensible Messaging & Presence Protocol (XMPP)" +
-                    " with a command-line interface (CLI). It uses Smack (version 4.4.5) for Java VM's to connect to" +
-                    " a server specified by the user on the source code."
+            coding_0: {
+                title: "XMPP-JAVA Chat Client",
+                body: "XMPP-JAVA is a Java-based client for the Extensible Messaging & Presence Protocol (XMPP) with" +
+                    " a command-line interface (CLI). It uses Smack (version 4.4.5) for Java VM's to connect to a" +
+                    " server specified by the user on the source code."
             },
-            project_1: {
+            coding_1: {
+                title: "Protobuff Chat Client & Server",
+                body: "Client & Server implementation for a custom protocol based on Google's Protobuff Protocol. The" +
+                    " Server implementation lets users establish a connection via the Client or a custom Client. The" +
+                    " Client can connect to any server by defining a Port & the Server's IP address."
+            },
+            game_0: {
                 title: "Liberty",
-                tools: "C#, Unity Studio, Game Development, Game Design, Action Game, Adventure Game, Destructible, 2D," +
-                    " Semi-Destructible Environments",
-                description: "Liberty is a 2D fast-paced Action-Adventure platform game developed with Unity Engine." +
-                    " The game features semi-destructible environments & different enemy types." +
-                    "\n\nSYNOPSIS: It's the year 1983, and a robot revolution is about to start! An engineer" +
-                    " foreseeing this outcome, created humanity's last hope: Liberty. Now it's Liberty's mission to" +
-                    " destroy the robot's main factory and eliminate all of them, before they wipe out all of humanity." +
-                    " Will Liberty accomplish his mission, now that the fate of humanity hangs in the balance?"
+                body: "Developed as a University project, Liberty is a 2D fast-paced Action-Adventure platform game" +
+                    " developed with Unity Engine. It features 5 different scenarios, 3 types of enemies with basic AI," +
+                    " and semi-destructible environments."
             },
-            project_2: {
-                title: "ENDFALL",
-                tools: "C++, SDL, Entt, Entity Component System Architectural Pattern, Memory Management, 2D, Game Design," +
-                    " Beat em' Up",
-                description: "Endfall is a game C++ game that uses SDL library for rendering purposes and Entt library for" +
-                    " memory management." +
-                    "\n\nSYNOPSIS: Detective Matthew Bradford is the most skilled Detective in his hometown. Unfortunately" +
-                    " for him, this may be put to test when a mysterious woman tells him that she has seen a girl that" +
-                    " was once close to him, and who everyone thought was dead, appear once again. Matthew must now put" +
-                    " all of his efforts and skills to investigate this case, and the much larger mystery that unfolds" +
-                    " around every turn."
+            game_1: {
+                title: "Endfall",
+                body: "Endfall is a Windows demo made entirely with C++, making use of the SDL library for graphics" +
+                    " rendering purposes and Entt library for optimal memory management. The game features a basic" +
+                    " combat and movement gameplay, with random enemies placed in each room."
             }
         },
         skills: {
@@ -159,37 +155,34 @@ export const data = {
         },
         projects: {
             main_title: "PROYECTOS",
+            games_title: "JUEGOS",
+            coding_title: "CÓDIGO",
             project_link: "Ver Repositorio",
-            project_0: {
-                title: "CLIENTE DE CHAT XMPP-JAVA",
-                tools: "Java, Maven, Protocolo XMPP, Implementación de Protocolo de Comunicación",
-                description: "XMPP-Java es un cliente basado en Java para el protocolo Extensible Messaging & Presence" +
-                    " Protocol (XMPP) con una interfaz de línea de comandos (CLI). Utiliza Smack (version 4.4.5) para" +
-                    " que las máquinas virtuales de Java puedan conectarse a un servidor espeficiado por el usuario en" +
-                    " el código fuente."
+            coding_0: {
+                title: "Cliente de Chat XMPP-JAVA",
+                body: "XMPP-JAVA es un cliente basado en Java para el protocolo Extensible Messaging & Presence Protocol" +
+                    " (XMPP) con una interfaz de línea de comandos (CLI). Utiliza Smack (versión 4.4.5) para que las" +
+                    " máquinas virtuales de Java puedan conectarse a un servidor especificado por el usuario en el" +
+                    " código fuente."
             },
-            project_1: {
+            coding_1: {
+                title: "Protobuff Chat Client & Server",
+                body: "Implementación de Cliente y Servidor para un protocolo basado en el protocolo Protobuff de" +
+                    " Google. El Servidor permite que los usuarios puedan conectarse mediante el Cliente o un cliente" +
+                    " personalizado. El Cliente permite que los usuarios puedan conectarse a un servidor configurando" +
+                    " el puerto y dirección IP del servidor."
+            },
+            game_0: {
                 title: "Liberty",
-                tools: "C#, Unity Studio, Desarrollo de Juegos, Game Design, Juego de Acción, Juego de Aventuras, 2D," +
-                    " Ambientes Semi-Destructibles",
-                description: "Liberty es un juego platformer 2D de Acción y Aventura desarrollado con Unity Engine." +
-                    " El juego implementa ambientes semi-destructibles y differentes tipos de enemigos." +
-                    "\n\nSYNOPSIS: Es el año 1983, y la revolución de los robots está a punto de empezar! Un ingeniero" +
-                    " que previó este suceso, creó a la última esperanza de la humanidad: Liberty. Ahora Liberty deberá" +
-                    " destruir la fábrica principal de los robots y acabar con todos ellos, antes de que ellos acaben" +
-                    " con la humanidad. ¿Logrará Liberty su objetivo, ahora que el destino de la humanidad recae sobre él?"
+                body: "Desarrollado como un proyecto Universitario, Liberty es un juego platformer 2D de Acción y" +
+                    " Aventura desarrollado con Unity Engine. Incluye 5 escenarios distintos, 3 tipos de enemigos con" +
+                    " Inteligencia Artificial básica y ambientes semi-destructibles."
             },
-            project_2: {
-                title: "ENDFALL",
-                tools: "C++, SDL, Entt, Entity Component System Architectural Pattern, Memory Management, 2D, Game Design," +
-                    " Beat em' Up",
-                description: "Endfall es un juego desarrollado con C++ que utiliza la librería SDL para renderizaje y" +
-                    " la librería Entt para manejo óptimo de memoria." +
-                    "\n\nSYNOPSIS: El Detective Matthew Bradford es el mejor detective en su ciudad natal. Desafortunadamente" +
-                    " para él, ésto será puesto a prueba cuando una mujer desconocida le cuenta que ha visto a una mujer" +
-                    " cercana a él, y quién todos pensaban estaba muerta, aparecer nuevamente. Ahora Matthew deberá" +
-                    " concentrar todo su esfuerzo y empeño en resolver este caso, y el misterio mucho mayor que se desarrolla" +
-                    " a cada paso."
+            game_1: {
+                title: "Endfall",
+                body: "Endfall es un demo para Windows hecho enteramente con C++, utilizando la librería SDL para" +
+                    " propósitos de renderiazaje y la librería ENTT para el manejo óptimo de memoria. El juego incluye" +
+                    " gameplay de combate y movimientos básicos, con enemigos aleatorios en cada cuarto."
             }
         },
         skills: {
