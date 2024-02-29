@@ -58,7 +58,8 @@ export const data = {
             main_title: "PROJECTS",
             games_title: "GAMES",
             coding_title: "CODING",
-            project_link: "View Repository",
+            repository_link: "View Repository",
+            game_link: "View Game",
             coding_0: {
                 title: "XMPP-JAVA Chat Client",
                 body: "XMPP-JAVA is a Java-based client for the Extensible Messaging & Presence Protocol (XMPP) with" +
@@ -157,7 +158,8 @@ export const data = {
             main_title: "PROYECTOS",
             games_title: "JUEGOS",
             coding_title: "CÓDIGO",
-            project_link: "Ver Repositorio",
+            repository_link: "Ver Repositorio",
+            game_link: "Ver Juego",
             coding_0: {
                 title: "Cliente de Chat XMPP-JAVA",
                 body: "XMPP-JAVA es un cliente basado en Java para el protocolo Extensible Messaging & Presence Protocol" +

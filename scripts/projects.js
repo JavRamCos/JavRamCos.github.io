@@ -30,7 +30,7 @@ const updateGamesSection = (lang) => {
     const projects = document.getElementById("games-container")
         .querySelectorAll('.project-inner-div');
     projects.forEach((el, i) => {
-        el.querySelector('.project-link').children[0].innerText = data[lang].projects.project_link;
+        el.querySelector('.project-link').children[0].innerText = data[lang].projects.game_link;
         const code = `game_${i}`;
         document.getElementById(`${code}_title`).innerText = data[lang].projects[code].title;
         document.getElementById(`${code}_body`).innerText = data[lang].projects[code].body;
@@ -41,7 +41,7 @@ const updateCodingSection= (lang) => {
     const projects = document.getElementById("coding-container")
         .querySelectorAll('.project-inner-div');
     projects.forEach((el, i) => {
-        el.querySelector('.project-link').children[0].innerText = data[lang].projects.project_link;
+        el.querySelector('.project-link').children[0].innerText = data[lang].projects.repository_link;
         const code = `coding_${i}`;
         document.getElementById(`${code}_title`).innerText = data[lang].projects[code].title;
         document.getElementById(`${code}_body`).innerText = data[lang].projects[code].body;
