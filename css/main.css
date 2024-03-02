@@ -90,7 +90,7 @@ button:hover {
     margin: auto;
     display: flex;
     flex-direction: column;
-    border: 6px solid black;
+    border: 5px solid black;
 }
 
 #preferences-title {
