@@ -37,12 +37,12 @@ export const data = {
                 certificate_0: { title: "High School Diploma" }
             },
             education_1: {
-                institution: "University of the Valley of Guatemala, Guatemala",
+                institution: "Universidad del Valle de Guatemala, Guatemala",
                 date: "Jan 2018 ─ Dec 2023",
                 certificate_0: { title: "BS. Computer Science and Information Technologies" }
             },
             education_2: {
-                institution: "University of the Valley of Guatemala, Guatemala",
+                institution: "Universidad del Valle de Guatemala, Guatemala",
                 date: "Jan 2024 ─ Present",
                 certificate_0: { title: "MS. Business Administration (MBA+)" }
             }
