@@ -79,10 +79,10 @@ export const data = {
                     " and semi-destructible environments."
             },
             game_1: {
-                title: "Endfall",
-                body: "Endfall is a Windows demo made entirely with C++, making use of the SDL library for graphics" +
-                    " rendering purposes and Entt library for optimal memory management. The game features a basic" +
-                    " combat and movement gameplay, with random enemies placed in each room."
+                title: "K'un/Uw: The Lost Song Chronicles",
+                body: "K'un/Uw was developed as a demo for the Global GameJam 2021. It follows Ux-lanque through his" +
+                    " quest to save his brothers Hunahpu and Ixbalanque from Xibalba, the Mayan Underworld. The game" +
+                    " features procedural dungeon generation, collectibles and a boss battle."
             }
         },
         skills: {
@@ -181,10 +181,10 @@ export const data = {
                     " Inteligencia Artificial básica y ambientes semi-destructibles."
             },
             game_1: {
-                title: "Endfall",
-                body: "Endfall es un demo para Windows hecho enteramente con C++, utilizando la librería SDL para" +
-                    " propósitos de renderiazaje y la librería ENTT para el manejo óptimo de memoria. El juego incluye" +
-                    " gameplay de combate y movimientos básicos, con enemigos aleatorios en cada cuarto."
+                title: "K'un/Uw: The Lost Song Chronicles",
+                body: "K'un/Uw fue desarrollado para el Global GameJam 2021. La historia es acerca de Ux-lanque, en su" +
+                    " viaje para salvar a sus hermanos Hunahpu e Ixablanque del Xibalba, el inframundo Maya. El juego" +
+                    " incluye generación procedural de niveles, coleccionables y una batalla de jefe."
             }
         },
         skills: {
