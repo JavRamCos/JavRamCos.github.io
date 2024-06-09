@@ -26,6 +26,14 @@ export const data = {
                     " website.",
                 task_1: "─ Bug/error reporting by means of ticket creation.",
                 task_2: "─ Collaboration with the creation of test sets and flowcharts."
+            },
+            work_0: {
+                title: "SYSTEMS DEVELOPMENT AND MAINTENANCE SPECIALIST 2",
+                company: "UNIVERSIDAD DEL VALLE DE GUATEMALA",
+                date: "May 2024 - Present",
+                task_0: "─ Backend Development with SQL Server, NodeJS RESTful APIs & Visual Basic 6 Development.",
+                task_1: "─ Frontend Development with AngularJS, Angular 4 & PHP frameworks.",
+                task_2: "─ AWS Cloud Environment Configuration and Deployment."
             }
         },
         education: {
@@ -126,6 +134,14 @@ export const data = {
                     " empresa.",
                 task_1: "─ Elaboración de reportes de bugs/errores por medio de tickets.",
                 task_2: "─ Colaboración con la creación de sets de prueba y diagramas de flujo."
+            },
+            work_0: {
+                title: "ESPECIALISTA 2 EN DESARROLLO Y MANTENIMIENTO DE SISTEMAS",
+                company: "UNIVERSIDAD DEL VALLE DE GUATEMALA",
+                date: "May 2024 - Presente",
+                task_0: "─ Desarrollo Backend con SQL Server, NodeJS RESTful APIs & Visual Basic 6.",
+                task_1: "─ Desarrollo Frontend con frameworks AngularJS, Angular 4 & PHP.",
+                task_2: "─ Configuración e Implementación de entornos en la nube con AWS."
             }
         },
         education: {
