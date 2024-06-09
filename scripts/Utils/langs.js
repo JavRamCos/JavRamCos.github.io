@@ -31,8 +31,9 @@ export const data = {
                 title: "SYSTEMS DEVELOPMENT AND MAINTENANCE SPECIALIST 2",
                 company: "UNIVERSIDAD DEL VALLE DE GUATEMALA",
                 date: "May 2024 - Present",
-                task_0: "─ Backend Development with SQL Server, NodeJS RESTful APIs & Visual Basic 6 Development.",
-                task_1: "─ Frontend Development with AngularJS, Angular 4 & PHP frameworks.",
+                task_0: "─ Backend Development with Microsoft SQL Server, NodeJS RESTful APIs & Visual Basic 6.",
+                task_1: "─ Frontend Development with AngularJS, Angular 4 & Angular 12 frameworks, with Javascript, " +
+                    "Typescript & PHP languages.",
                 task_2: "─ AWS Cloud Environment Configuration and Deployment."
             }
         },
@@ -139,8 +140,9 @@ export const data = {
                 title: "ESPECIALISTA 2 EN DESARROLLO Y MANTENIMIENTO DE SISTEMAS",
                 company: "UNIVERSIDAD DEL VALLE DE GUATEMALA",
                 date: "May 2024 - Presente",
-                task_0: "─ Desarrollo Backend con SQL Server, NodeJS RESTful APIs & Visual Basic 6.",
-                task_1: "─ Desarrollo Frontend con frameworks AngularJS, Angular 4 & PHP.",
+                task_0: "─ Desarrollo Backend con Microsoft SQL Server, NodeJS RESTful APIs & Visual Basic 6.",
+                task_1: "─ Desarrollo Frontend con frameworks AngularJS, Angular 4, Angular 12 y lenguajes Javascript," +
+                    " Typescript y PHP.",
                 task_2: "─ Configuración e Implementación de entornos en la nube con AWS."
             }
         },
